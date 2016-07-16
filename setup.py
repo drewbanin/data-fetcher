@@ -8,4 +8,6 @@ setup(name='datafetcher',
       author_email='drewbanin@gmail.com',
       license='MIT',
       packages=['datafetcher'],
-      zip_safe=False)
+      install_requires=[
+          'psycopg2==2.6.1',
+        ])
